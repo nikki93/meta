@@ -8,7 +8,7 @@
 //     props:
 //       first: First
 //       last: Last (example flag set)
-// 
+//
 
 
 #include "meta.hh"
@@ -19,7 +19,8 @@
 // Register component types by wrapping the struct name in `Comp(...)`
 
 struct Comp(Position) {
-  // Register reflectable fields ('props') using the `Prop` macro
+  // Register reflectable fields ('props') using the `Prop` macro. This can be used in any aggregate
+  // `struct`, doesn't have to be a `Comp`.
   Prop(float, x) = 0;
   Prop(float, y) = 0;
 };
