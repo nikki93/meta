@@ -1,3 +1,16 @@
+// Output of running the example:
+//
+//   component type: Position
+//     props:
+//       x: 0.000000
+//       y: 0.000000
+//   component type: Name
+//     props:
+//       first: First
+//       last: Last (example flag set)
+// 
+
+
 #include "meta.hh"
 
 #include <string>
