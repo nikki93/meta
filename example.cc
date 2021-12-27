@@ -28,7 +28,7 @@ struct Comp(Name) {
   Prop(std::string, first) = "First";
 
   // Props can have additional attributes, see the `PropAttribs` type. You can customize and add
-  // your own flags there.
+  // your own attributes there.
   Prop(std::string, last, .exampleFlag = true) = "Last";
 
   int internal = 42; // This is a non-prop field that doesn't show up in reflection. IMPORTANT NOTE:
