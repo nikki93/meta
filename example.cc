@@ -23,9 +23,8 @@ struct Comp(Name) {
                      // the front. Mixing props and non-props in the order is not allowed.
 };
 
-//
-// After all compnonent types are defined, this macro must be called to define
-// `forEachComponentType`
+// After all compnonent types are defined, this macro must be called to be able to use
+// `forEachComponentType` to iterate all component types
 UseComponentTypes();
 
 
